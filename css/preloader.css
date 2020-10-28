@@ -1,0 +1,42 @@
+/*The Logo Animation*/
+.wrapper{
+    position: relative;
+	 top: 60%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
+.logoan{
+    height: 60px; 
+    width: 75px;
+      animation-name: logo;
+  animation-duration: 1.8s;
+    opacity: 1;
+}
+
+.textan{
+     animation-name: logo;
+  
+    opacity: 1;
+      
+  animation-duration: 2s;
+    opacity: 1;
+}
+
+@keyframes logo {
+  
+    0% {opacity: 0;}
+    
+    100% {opacity: 1;}
+}
+
+/*To add full screen of any preloader*/
+.preloadercontainer{
+    overflow: hidden;
+        position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
