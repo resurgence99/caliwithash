@@ -7,6 +7,13 @@
     color: white;
 }
 
+.section2{
+  background-color: #101313;
+    color: white;  
+}
+
+/*This is for making the video full size*/
+
 
 .index-video-wrapper {
     height: 100%;
@@ -28,3 +35,21 @@
     overflow: hidden;
     background-attachment: fixed;
 }
+
+/*This is for making the video full size*/
+
+/*This Css is for adding the text in the center of the video*/
+/*
+.index-header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+
