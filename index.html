@@ -32,14 +32,36 @@ body, html {height: 100%}
     background-repeat: no-repeat;
 }
 </style>
+        <link href="css/preloader.css" rel="stylesheet">
+        <link href="webfontkit-20201028-143528/stylesheet.css" rel="stylesheet">
+
+        <!--Preloader JS with 2.5sec delay-->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+      setTimeout(function()
+                 { document.querySelector('.preloadercontainer').style.display='none';
+                           }, 2100);
+  });</script>
 <body>
+
+
+     <!--   Preloader-->
+  <div class="preloadercontainer">
+    <div class="wrapper">
+     <center>
+     <h1 class="textan" style="color: whitesmoke;font-family: 'beattingvileregular', beattingvile-webfont, normal;font-size: 80px">Calisthenics With Ashwin</h1>
+      <img src="img/logo-white.png" style="" class="logoan">
+      </center>
+      </div>
+  </div>
+<!--   Preloader-->
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
     <img src="img/logo-white.png" alt="cbfitnesslogo" height="65px" width="85px">
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <h1 class=" w3-animate-top" style="color: whitesmoke;font-family: 'beattingvileregular', beattingvile-webfont, normal;font-size: 120px;line-height: 0.9;">Coming Soon</h1>
     
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <p class="w3-large w3-center" id="timer"></p>
