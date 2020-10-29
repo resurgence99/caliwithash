@@ -33,7 +33,8 @@
 .preloadercontainer{
     overflow: hidden;
         position: fixed;
-    background-color: black;
+/*    background-color: black;*/
+    background-image: url(img-assets-css/bg-3.jpg);
     top: 0;
     left: 0;
     right: 0;
