@@ -111,8 +111,12 @@ p{
   min-height: 70vh;
     background-image: url(img-assets-css/bg-3.jpg);
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:;
     
 }
+
+
+
+
 
 
