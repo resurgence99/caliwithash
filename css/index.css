@@ -11,10 +11,13 @@
     
     color: white;  
     background-color: #101313;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 90px;
+    border: 2.7px solid #232b2b;
+/*
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+*/
     overflow: hidden;
 }
 
@@ -22,16 +25,24 @@
     
     color: white;  
     background-color: #101313;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 90px;
+    border-left:2.7px solid #232b2b;
+    border-right:2.7px solid #232b2b;
+    border-bottom:2.7px solid #232b2b;
+/*
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+*/
     overflow: hidden;
 }
 
 .section4{
     background-color: 	#0e1111;
     padding-bottom: 40px;
+    border-left:2.7px solid #232b2b;
+    border-right:2.7px solid #232b2b;
+    border-bottom:2.7px solid #232b2b;
 /*
     background-image: url(img-assets-css/bg-4.jpg);
     background-attachment: fixed;*/
@@ -106,7 +117,7 @@ li, p{
 
 /*To add the a background for a full section*/
 .full_section2_bg {
-  min-height: 70vh;
+  min-height: 60vh;
   background-image: url(img-assets-css/bg-2.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -117,10 +128,11 @@ li, p{
 
 
 .full_section3_bg {
-  min-height: 70vh;
-    background-image: url(img-assets-css/bg-3.jpg);
+  min-height: 60vh;
+    background-image: url(img-assets-css/bg-5.jpg);
     background-position: center;
-    background-attachment:;
+    background-size: cover;
+    background-attachment:fixed;
     
 }
 
