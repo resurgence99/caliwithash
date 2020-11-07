@@ -3,15 +3,26 @@
 }
 
 .section1{
-    background-color: #101313;
+/*
+    background-image: url(img-assets-css/bg-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+   background-color: #101313;
     color: white;
+    border-left:2.7px solid #232b2b;
+    border-right:2.7px solid #232b2b;
+    height: auto;
 }
 
 .section2{
     
     color: white;  
     background-color: #101313;
-    border: 2.7px solid #232b2b;
+    border-left:2.7px solid #232b2b;
+    border-right:2.7px solid #232b2b;
+    border-bottom:2.7px solid #232b2b;
 /*
     padding-top: 30px;
     padding-left: 45px;
@@ -82,10 +93,15 @@ li, p{
     width: 100%;
     background: url() no-repeat center center;
     background-size: contain;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 #index-video {
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -96,6 +112,7 @@ li, p{
     background-size: ;
     overflow: hidden;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 /*This is for making the video full size*/
