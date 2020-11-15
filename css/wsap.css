@@ -13,6 +13,24 @@
   z-index:100;
 }
 
+.float:hover{
+    color: grey;
+    background-color: white;
+}
+
 .my-float{
 	margin-top:16px;
+}
+
+.float-text{
+    font-family: sans-serif;
+	position:fixed;
+	color:#FFF;
+	text-align:center;
+  font-size:20px;
+  z-index:100;
+    width:60px;
+	height:80px;
+	bottom:40px;
+	right:50px;
 }
