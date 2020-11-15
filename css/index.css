@@ -59,6 +59,17 @@
     background-attachment: fixed;*/
 }
 
+.section5{
+    background-color: 	#0e1111;
+    padding-bottom: 40px;
+    border-left:2.7px solid #232b2b;
+    border-right:2.7px solid #232b2b;
+    border-bottom:2.7px solid #232b2b;
+/*
+    background-image: url(img-assets-css/bg-4.jpg);
+    background-attachment: fixed;*/
+}
+
 
 .beat-font-70px{
     color: whitesmoke;font-family: 'beattingvileregular',beattingvile-webfont, normal;font-size: 70px;
@@ -134,7 +145,7 @@ li, p{
 
 /*To add the a background for a full section*/
 .full_section2_bg {
-  min-height: 60vh;
+  min-height: 70vh;
   background-image: url(img-assets-css/bg-2.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -145,7 +156,7 @@ li, p{
 
 
 .full_section3_bg {
-  min-height: 60vh;
+  min-height: 70vh;
     background-image: url(img-assets-css/bg-5.jpg);
     background-position: center;
     background-size: cover;
