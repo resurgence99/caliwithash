@@ -109,7 +109,7 @@
        <!-- First Section with video-->
 
       
-       <div class="section1">
+       <div class="section1" >
        
 <!--     Index  Video Property-->
        <div class="cover-index">
@@ -131,7 +131,7 @@
             </div>
 <!--   First Section with video-->
    
-   <div class="section2 full_section2_bg " style="margin-bottom: 0px">
+   <div class="section2 full_section2_bg " style="margin-bottom: 0px" id="wic">
       <div  class="container">
        <h1 class="center-text beat-font-70px my-4" style="justify-content: center">What Is Calisthenics ?</h1>
        
@@ -141,7 +141,7 @@
        </div>
    </div>
    
-   <div class="section3 fluid-container full_section3_bg">
+   <div class="section3 fluid-container full_section3_bg" id="wtwm">
       <div  class="container">
       
        <h1 class="center-text beat-font-70px my-4" style="justify-content: center">Why Train With Me?</h1>
@@ -160,7 +160,7 @@
        
    </div>
    
-   <div class="section4">
+   <div class="section4" id="testimonials">
       
       
 <div class="container-fluid " style="overflow: hidden;">
@@ -355,7 +355,7 @@
   <div class="card-header" style="background-color: darkslategrey;"><h5 class="" style="text-align: center">Diet Counciling</h5></div>
   <div class="card-body">
     
-    <p class="card-text "> our approach to diet isn't something that focuses you to have a strict regiment but make small alterations to the way you eat in order to meet your goals. We will make sure you completely understand how to eat for your specific goal and how to get your diet on track. Please note I do not offer step by step instructions on what meals you should prepare.</p>
+    <p class="card-text "> Our approach to diet isn't something that focuses you to have a strict regiment but make small alterations to the way you eat in order to meet your goals. We will make sure you completely understand how to eat for your specific goal and how to get your diet on track. Please note I do not offer step by step instructions on what meals you should prepare.</p>
   </div>
 </div>
        
@@ -426,7 +426,7 @@
       <div class="col-md-3 mx-auto shfooter">
         <h5 class="my-2 font-weight-bold d-none d-md-block">Cali With Ash</h5>
         <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
-          <div class="mt-3 font-weight-bold">Product
+          <div class="mt-3 font-weight-bold">Cali With Ash
             <div class="float-right navbar-toggler">
               <i class="fas fa-angle-down"></i>
               <i class="fas fa-angle-up"></i>
@@ -434,10 +434,10 @@
           </div>
         </div>
         <ul class="list-unstyled collapse" id="Product">
-          <li><a href="https://codepen.io/jettaz">Create Websites</a></li>
-          <li><a href="https://codepen.io/jettaz">Secure Cloud Hosting</a></li>
-          <li><a href="https://codepen.io/jettaz">Engage Your Audience</a></li>
-          <li><a href="https://codepen.io/jettaz">Website Support</a></li>
+          <li><a href="#wic">What is Calisthenics?</a></li>
+          <li><a href="#wtwm">Why Train With Me?</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+<!--          <li><a href="https://codepen.io/jettaz">Website Support</a></li>-->
         </ul>
       </div>
       <!--/.First column-->
@@ -457,6 +457,9 @@
           <li><a href="https://codepen.io/jettaz">Diet Counciling</a></li>
           <li><a href="https://codepen.io/jettaz">Customised Workout Program</a></li>
           <li><a href="https://codepen.io/jettaz">One to One live online sessions</a></li>
+          
+          <!-- Button trigger modal -->
+          
 <!--
           <li><a href="https://codepen.io/jettaz">Pricing</a></li>
           <li><a href="https://codepen.io/jettaz">FAQ</a></li>
@@ -489,6 +492,7 @@
       <!--/.Third column-->
       <hr class="clearfix w-100 d-md-none mb-0">
       <!--Fourth column-->
+<!--
       <div class="col-md-3 mx-auto shfooter">
         <h5 class="my-2 font-weight-bold d-none d-md-block">Get Help</h5>
         <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
@@ -507,11 +511,35 @@
           <li><a href="https://codepen.io/jettaz">Login</a></li>
         </ul>
       </div>
+-->
       <!--/.Fourth column-->
     </div>
   </div>
   <!--/.Footer Links-->
   <hr class="mb-0">
+  <button type="button" class="btn btn-outline-light my-3" data-toggle="modal" data-target="#exampleModal">
+Get Your Free Workout
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="color: black">Fill In Your Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWRsQSVZWqyXq8WYjHUpxXnnQ8j2gJSB5OZxmNmqKGU3UKrQ/viewform?embedded=true" width="450" height="710" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<!--        <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+    </div></div>
   <!--Copyright-->
   <div class="py-3 text-center" style="padding-bottom: 20px">
     &#169; Copyright 2017-
