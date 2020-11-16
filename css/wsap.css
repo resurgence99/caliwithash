@@ -1,4 +1,5 @@
 .float{
+    overflow: hidden;
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -14,15 +15,18 @@
 }
 
 .float:hover{
+    overflow: hidden;
     color: grey;
     background-color: white;
 }
 
 .my-float{
 	margin-top:16px;
+    overflow: hidden;
 }
 
 .float-text{
+    overflow: hidden;
     font-family: sans-serif;
 	position:fixed;
 	color:#FFF;
