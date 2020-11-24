@@ -37,8 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--    Font-->
    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
    
-   <link rel="stylesheet" href="webfontkit-20201028-143528/stylesheet.css" type="text/css" charset="utf-8" />
-    
+   <link  rel="stylesheet preload" href="webfontkit-20201028-143528/stylesheet.css" type="text/css" charset="utf-8" />
     <!-- Title Logo-->
   <link href="img/logo-lightgray.png" rel="icon">
   <link href="img/logo-lightgray.png" rel="apple-touch-icon">
@@ -263,7 +262,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row" >
             <div class="col-md-4">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/shadab.jpg"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/shadab.jpg"
                   alt="shadab calistehnics" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details" style="">
                   <h4 class="card-title">Shadab</h4>
@@ -276,7 +275,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/mukesh.jpg"alt="Card image cap" style="min-height: 320px; max-height: 335px">
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/mukesh.jpg"alt="Card image cap" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details">
                   <h4 class="card-title">Mukesh</h4>
                   <p class="card-text"> Being 45 years old I thought calisthenics is something only young people do but Ashwin changed my entire mindset. He guided me and helped me with my basics. From not being able to do a single push up & pull up, he has helped me do explosive push-ups and pull ups.</p>
@@ -286,7 +285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/johnvi.jpg"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/johnvi.jpg"
                   alt="Card image cap" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details" >
                   <h4 class="card-title">Janhavi</h4>
@@ -305,7 +304,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/sudeep.jpg"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/sudeep.jpg"
                   alt="sudeep calisthenics" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details">
                   <h4 class="card-title">Sudeep</h4>
@@ -316,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/ahmed.jpg"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/ahmed.jpg"
                   alt="Card image cap" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details">
                   <h4 class="card-title">Ahmed</h4>
@@ -327,7 +326,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/johnvi.jpg"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/johnvi.jpg"
                   alt="Card image cap" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details">
                   <h4 class="card-title">Janhavi</h4>
@@ -346,7 +345,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-2 single-card" data-aos="fade-up">
-                <img class="card-img-top" src="img/testimonialpictures/hema.JPG"
+                <img class="card-img-top lazy" data-src="img/testimonialpictures/hema.JPG"
                   alt="hema calisthencis" style="min-height: 320px; max-height: 335px">
                 <div class="card-body card-details">
                   <h4 class="card-title">Hema</h4>
@@ -610,6 +609,9 @@ Get Your Free Workout
   </div>
   <!--/.Copyright-->
 </footer>
+
+<!--Lazy Loading-->
+         <script src="js/lazyload.js" ></script>
 
 <!--Animation On Scroll-->
  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
